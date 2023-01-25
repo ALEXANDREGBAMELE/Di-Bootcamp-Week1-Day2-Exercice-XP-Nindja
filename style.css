@@ -1,0 +1,43 @@
+
+/* 
+    Author : Alexandre Gbamele
+    Object : creation de connexion
+*/
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    border: red solid 2px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* left part */
+.left-part{
+    border: red solid 2px;
+    padding: 10px;
+    background-color: gainsboro;
+    height: 400px;
+    align-items: center;
+    
+}
+
+/* right part */
+.right-part{
+    border: red solid 2px;
+    padding: 10px;
+    background-color: blueviolet;
+    height: 400px;
+    align-items: center;
+}
+
+.text-align{
+    text-align: center;
+    
+}
