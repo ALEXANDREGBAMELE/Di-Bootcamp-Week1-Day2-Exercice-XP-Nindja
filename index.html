@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log In Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <div class="left-part text-align">
@@ -14,31 +19,42 @@
             <form action="">
                 <input type="email" name="eimail" placeholder="email" id="email"><br>
                 <input type="password" name="pwd" placeholder="password" id="password"><br>
-                <input type="checkbox" name="checkbox" id="checkbox"><label for="">Remember me</label> <span>Forgot password?</span><br>
+                <input type="checkbox" name="checkbox" id="checkbox"><label for="">Remember me</label> <span
+                    class="forgot">Forgot password?</span><br>
                 <input type="button" name="" id="login" value="LOG IN"> <br>
                 <div over-option>
-                    <span>or connect width</span>
-                    <i fa fa-facebook></i>
-                    <i fa fa-twitter></i>
-                    <i fa fa-github></i>
-                    <i fa fa-lindIn></i>
+                    <div class="half-trait">
+                        <span class="gauche">
+                            <hr>
+                        </span>
+                        <span style="margin-left: 10px; margin-right: 10px;">or connect width</span>
+                        <span class="droit">
+                            <hr>
+                        </span>
+                    </div>
+
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-linkedin"></i>
                 </div>
             </form>
             <p class="copyright">©2020</p>
         </div>
         <div class="right-part text-align">
-                <div class="content">
-                    <div class="icon">
-                        <i fa fa-user></i>
+            <div class="content">
+                <div class="icon">
+                    <i class="fa fa-user-plus icon-size"></i>
                     <i fa fa-plus></i>
-                    </div>
-                    <div class="title">
-                        <h1>Hello, friend!</h1>
-                        <p>Enter your personal details and start jurney with us</p>
-                    </div>
-                    <button>Register <i fa fa-fleche></i></button>
                 </div>
+                <div class="title">
+                    <h1>Hello, friend!</h1>
+                    <p class="person-skill">Enter your personal details and start jurney with us</p>
+                </div>
+                <button class="register" value=""id="register"> REGISTER <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
