@@ -23,7 +23,6 @@
  
 /* left part  */
 .left-part{
-    border: red solid 1px;
     padding: 10px;
     background-color: gainsboro;
     height: 400px;
@@ -34,7 +33,6 @@
 
  /* right part */
 .right-part{
-    border: red solid 1px;
     padding-top: 200px;
     padding: 10px; 
     background-color: blueviolet;
